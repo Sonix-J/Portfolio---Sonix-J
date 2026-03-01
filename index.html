@@ -11,7 +11,7 @@
     ></script>
   </head>
   <body>
-    <div class="flex flex-col">
+    <div class="flex flex-col max-w-4xl mx-auto">
       <div class="flex flex-row gap-5 px-3 py-8">
         <img
           src="src/images/profile.jpg"
@@ -42,57 +42,62 @@
             meaningful impact.
           </p>
         </div>
-        <!-- Tech Stack -->
-        <div class="flex flex-col border rounded p-3 gap-3">
-          <h2 class="text-2xl font-bold">Tech Stack</h2>
-          <div class="flex flex-col">
-            <h3 class="font-bold">Frontend</h3>
-            <div class="flex flex-row flex-wrap gap-3">
-              <p class="border px-3">JavaScript</p>
-              <p class="border px-3">Tailwind CSS</p>
-              <p class="border px-3">React</p>
-              <p class="border px-3">Vite</p>
-              <p class="border px-3">TypeScript</p>
+        <div class="flex flex-col lg:flex-row gap-5">
+          <!-- Tech Stack -->
+          <div class="flex flex-col border rounded p-3 gap-3">
+            <h2 class="text-2xl font-bold">Tech Stack</h2>
+            <div class="flex flex-col">
+              <h3 class="font-bold">Frontend</h3>
+              <div class="flex flex-row flex-wrap gap-3">
+                <p class="border px-3">JavaScript</p>
+                <p class="border px-3">Tailwind CSS</p>
+                <p class="border px-3">React</p>
+                <p class="border px-3">Vite</p>
+                <p class="border px-3">TypeScript</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <h3 class="font-bold">Backend</h3>
+              <div class="flex flex-row flex-wrap gap-3">
+                <p class="border px-3">Python</p>
+                <p class="border px-3">PHP</p>
+                <p class="border px-3">Node.js</p>
+                <p class="border px-3">Laravel</p>
+                <p class="border px-3">PostgreSQL</p>
+              </div>
             </div>
           </div>
+          <!-- Recent Projects -->
+          <div class="flex flex-col border rounded p-3 gap-3">
+            <h2 class="text-2xl font-bold">Recent Projects</h2>
 
-          <div class="flex flex-col">
-            <h3 class="font-bold">Backend</h3>
-            <div class="flex flex-row flex-wrap gap-3">
-              <p class="border px-3">Python</p>
-              <p class="border px-3">PHP</p>
-              <p class="border px-3">Node.js</p>
-              <p class="border px-3">Laravel</p>
-              <p class="border px-3">PostgreSQL</p>
-            </div>
+            <a
+              href="https://third-wave.netlify.app/"
+              target="_blank"
+              class="border rounded px-3 py-2 block"
+            >
+              <h3 class="font-bold">THIRDWAVE</h3>
+              <p>
+                Made a website for my aunt & uncle for their local coffee
+                business
+              </p>
+            </a>
+
+            <a
+              href="https://jam-b.netlify.app/"
+              target="_blank"
+              class="border rounded px-3 py-2 block"
+            >
+              <h3 class="font-bold">JAM-B</h3>
+              <p>Made a website for my local gym</p>
+            </a>
           </div>
         </div>
-        <!-- Recent Projects -->
-        <div class="flex flex-col border rounded p-3 gap-3">
-          <h2 class="text-2xl font-bold">Recent Projects</h2>
 
-          <a
-            href="https://third-wave.netlify.app/"
-            target="_blank"
-            class="border rounded px-3 py-2 block"
-          >
-            <h3 class="font-bold">THIRDWAVE</h3>
-            <p>
-              Made a website for my aunt & uncle for their local coffee business
-            </p>
-          </a>
-
-          <a
-            href="https://jam-b.netlify.app/"
-            target="_blank"
-            class="border rounded px-3 py-2 block"
-          >
-            <h3 class="font-bold">JAM-B</h3>
-            <p>Made a website for my local gym</p>
-          </a>
-        </div>
         <!-- Socials -->
         <div class="flex flex-col border rounded p-3 gap-3">
+          <h2 class="text-2xl font-bold">Socials</h2>
           <a
             href="https://github.com/Sonix-J"
             target="_blank"
